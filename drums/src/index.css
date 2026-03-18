@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=BBH+Bartle&display=swap");
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: url("images/funky-drummer-background.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: BBH Bartle;
+  letter-spacing: 4px;
+  color: #fcce03;
+  text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+  text-align: center;
+  -webkit-text-stroke: 2px black;
+}
+
+.container {
+  text-align: center;
+}
+
+.btn {
+  padding: 30px 50px;
+  background: #fff;
+  border: none;
+  margin: 10px;
+  font-size: 30px;
+  min-width: 220px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-image: url("images/tom.png");
+  background-size: cover;
+  color: #f9f4f5;
+  font-family: Archivo Black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  -webkit-text-stroke: 2px black;
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  color: #fcce03;
+}
+
+.btn:active {
+  background-size: 105%;
+}
+
+.icon {
+  color: #f9fc9d;
+}
