@@ -7,7 +7,7 @@ body {
   align-items: center;
   height: 100vh;
   justify-content: center;
-  background: url("images/funky-drummer-background.webp");
+  background: url("/images/funky-drummer-background.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
